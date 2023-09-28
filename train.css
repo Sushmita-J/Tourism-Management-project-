@@ -1,0 +1,142 @@
+body{
+	background-color: #e6b411; 
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+.main{
+  overflow: hidden;
+  position: fixed;
+  background-color: rgba(135,206,250,0.4);
+  top: 0;
+  width: 100vw;
+  height: 8vh;
+  max-width: 1550px;
+}
+
+ul{
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+ul li{
+  display: inline;
+}
+
+.list{
+  position: fixed;
+  display: block;
+  top: 9px;
+  float: left;
+}
+.list2{
+    position: relative;
+    top: -20px;
+    float: right;
+  }
+  
+  .list2 li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.9s ease;
+  }
+  
+  .list2 li a:hover{
+    background-color: #fff;
+    color: #000;
+  
+  }
+  .hedder{
+    margin-top: 1%;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .container{
+    background-color: rgba(27, 64, 11, 0.3);
+      width: 85vw;
+      height: 95vh;
+      margin:-2% 0% 5% 0%;
+    margin-left: 6%;
+  }
+  img { max-width: 420px;
+    float: left;
+
+  }
+  .description
+  {
+    text-align: justify;
+    font-family: Georgia;
+    font-size: 30px;
+  }
+  .descriptions
+  {
+    text-align: justify;
+    font-family: Georgia;
+    font-size: 16px;
+  }
+  .d
+  {
+    text-align: justify;
+    font-family: Georgia;
+    font-size: 16px;
+  }
+  .btn
+{
+	
+	width:50%;
+	background:none;
+	border:2px solid #4caf50;
+	color:white;
+	padding:5px;
+	font-size:18px;
+	cursor:pointer;
+	margin:12px 0;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #4caf50;
+}
+.container{
+	width: 40%;
+	height: 80%;
+	margin: -2% 27%;
+	padding: 40px;
+}
+.textbox
+{
+	width:100%;
+	overflow:hidden;
+	font-size:20px;
+	padding:20px 0;
+}
+.textbox input {
+	border:2px solid #000;
+	border-radius: 5px;
+	outline:none;
+	background: rgba(251, 204, 78, 0.5);
+	color:white;
+	font-size:18px;
+	width: 50%;
+	height: 30px;
+	
+}
+.textbox input::placeholder{
+	color: white;
+}
+.btn input{
+	margin-top: 10px;
+	width: 50%;
+	height: 40px;
+	border-radius: 8px;
+	transition: 0.6s ease;
+}
+.btn input:hover{
+	background-color: #FB4A0A;
+}

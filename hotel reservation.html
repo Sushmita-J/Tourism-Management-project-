@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<link rel="stylesheet" href="hotelr.css">
+	<link rel="icon" type="image/x-icon" href="favicon.ico" >
+	<title>HOTEL RESERVATION</title>
+</head>
+<body>
+	<div class="main">
+	    <ul>
+        <ul class="list2">
+	        <li><a href="index.html">Home</a></li>
+	        <li><a id="long" href="packages.html">Packages</a></li>
+	        <li><a href="signup.html">Sign up</a></li>
+			<li><a href="feedback.html">Feedback</a></li>
+			<li><a href="index.html">Logout</a></li>
+	      </ul>
+	    </ul>
+	</div>
+	<h1>HOTEL RESERVATION</h1>
+	<div class="container">
+		<form method="POST" action="feedback.html" name="form" onlodges="return validateForm()">
+			<div class="textbox">
+				<input type="text" placeholder="checkin" name="checkin" value=""  required>  
+			</div>
+
+			<div class="textbox">
+				<input type="text" placeholder="checkout" name="checkout" value="" required> 
+			</div>
+
+			<div class="textbox">
+				<input type="text" placeholder="no of adults" name="adults" value="" required >
+			</div>
+
+			<div class="textbox">
+				<input type="text" placeholder="no of Children" name="children" value="" required>
+			</div>
+
+			<div class="textbox">
+				<input type="text" placeholder="contact" name="contact" value="" required>
+			</div>
+			<div class="btn">
+				<input name="submit" value="Submit" type="submit">
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>
